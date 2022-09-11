@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="aospa-vayu"
+          fetch="https://github.com/aospa-vayu" />
+  <remote name="arrowos"
+          fetch="https://github.com/ArrowOS" />
+  <remote name="arrowos-devices"
+          fetch="https://github.com/ArrowOS-Devices" />
+
+        <!-- Trees -->
+        <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="aospa-vayu" revision="sapphire" />
+        <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="aospa-vayu" revision="topaz" />
+        <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" remote="aospa-vayu" revision="topaz" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="arrowos-devices" revision="arrow-13.0" />
+        
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrowos" revision="arrow-13.0" />
+ 
+        <!-- HAL's -->
+        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="sapphire-855"/>    	
+	      <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="sapphire-855"/>
+        <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="aospa" revision="sapphire-855"/>
+
+        <!-- Fork's -->
+        <remove-project name="AOSPA/android_vendor_aospa" />
+        <project path="vendor/aospa" name="android_vendor_aospa" remote="aospa-vayu" revision="topaz" > <linkfile src="build.sh" dest="rom-build.sh" />
+        </project>
+        
+</manifest>
