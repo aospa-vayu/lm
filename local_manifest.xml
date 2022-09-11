@@ -6,11 +6,14 @@
           fetch="https://github.com/ArrowOS" />
   <remote name="arrowos-devices"
           fetch="https://github.com/ArrowOS-Devices" />
+	
+  <remote name="pa-vayu"
+          fetch="https://github.com/pa-vayu" />
 
         <!-- Trees -->
         <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="aospa-vayu" revision="sapphire" />
         <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="aospa-vayu" revision="topaz" />
-        <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" remote="aospa-vayu" revision="topaz" />
+        <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" remote="pa-vayu" revision="sapphire" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="arrowos-devices" revision="arrow-13.0" />
         
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrowos" revision="arrow-13.0" />
