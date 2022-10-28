@@ -10,7 +10,7 @@
           fetch="https://github.com/raghavt20" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="aospa-vayu" revision="sapphire" />
+        <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="aospa-vayu" revision="topaz" />
         <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="aospa-vayu" revision="topaz" />
         <project path="kernel/xiaomi/vayu" name="kernel_sm8150" remote="raghavt20" revision="topaz" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="arrowos-devices" revision="arrow-13.0" />
