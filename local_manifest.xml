@@ -6,14 +6,13 @@
           fetch="https://github.com/ArrowOS" />
   <remote name="arrowos-devices"
           fetch="https://github.com/ArrowOS-Devices" />
-	
-  <remote name="pa-vayu"
-          fetch="https://github.com/pa-vayu" />
+  <remote name="raghavt20"
+          fetch="https://github.com/raghavt20" />
 
         <!-- Trees -->
         <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="aospa-vayu" revision="sapphire" />
         <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="aospa-vayu" revision="topaz" />
-        <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" remote="aospa-vayu" revision="zeta" />
+        <project path="kernel/xiaomi/vayu" name="kernel_sm8150" remote="raghavt20" revision="topaz" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="arrowos-devices" revision="arrow-13.0" />
 
         <!-- HAL's -->
